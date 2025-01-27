@@ -1,0 +1,33 @@
+{
+  "name": "superpowered-test-1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@superpoweredsdk/web": "^2.7.2",
+    "next": "13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use": "^17.6.0",
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.0",
+    "file-saver": "^2.0.5",
+    "http-proxy-middleware": "^2.0.6",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^16.4.10",
+    "@types/react": "^18.0.26",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
